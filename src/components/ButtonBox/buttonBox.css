@@ -1,0 +1,17 @@
+.ButtonBox{
+    width: inherit;
+    height: 15em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.examplesContainer{
+    margin: 2%;
+    display: flex;
+    grid-column: 2/5;
+}
+
+.inputCount{
+    margin-right: 5px;
+}

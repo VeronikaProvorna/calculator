@@ -1,0 +1,29 @@
+.ScreenContainer{
+    width: inherit;
+    height: 12em;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    border-radius: 2%;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.historyContainer{
+    padding-top: 1%;
+    padding-right: 3%;
+    overflow: auto;
+    height: 70%;
+}
+
+.expressionVal{
+    margin-right: 3%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.lastHistoryEl{
+    font-weight: bold;
+    font-size: larger;
+}
